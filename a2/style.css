@@ -1,5 +1,5 @@
 body {
-background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+background-image:url("https://images.pexels.com/photos/6985132/pexels-photo-6985132.jpeg");
 }
 #title {
 position:fixed;
@@ -51,7 +51,7 @@ background-color:#787878;
 float:left;
 }
 
-#clear{
+.clear{
 clear:both;
 }
 
@@ -61,4 +61,5 @@ clear:both;
 border:solid 1px;
 padding: 10px;
 margin:10px;
+background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxikXvEBrb_dcnPnJJWPCnI67vG1jUC-nxHQ&s');
 }
