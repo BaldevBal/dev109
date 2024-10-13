@@ -7,12 +7,16 @@
 		text-align: center;
         	color: blue;
         	font-family:'Dancing Script';
-        	font-size: 400%;}
+        	font-size: 400%;
+		padding: 12px;
+		line-height: 2em;}
 	p {
         	font-family: 'Dancing Script';
         	font-weight: normal;
         	font-style: normal;
-        	font-size:200%;}
+        	font-size: 200%;
+		padding: 12px;
+		line-height: 2em;}
 	i {
 		color: darkgreen;}
 </style>
