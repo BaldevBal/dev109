@@ -54,6 +54,10 @@ img {
  margin-top:10px;
  }
 
+body {
+ background-image:url("https://images.pexels.com/photos/6985132/pexels-photo-6985132.jpeg");
+}
+
 .clear{
 clear:both; 
 }
