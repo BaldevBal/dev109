@@ -1,7 +1,15 @@
 .row{
 position: relative;
+width: 100%;
 margin-left: 10%;
 margin-right: 10%;
+}
+
+#container {
+ margin-top: 20%;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom: 5%;
 }
 
 .white{
@@ -24,13 +32,6 @@ float: left;
  border: solid 1px;
  padding: 10px;
  margin: 10px;
-}
-
-#container {
- margin-top: 20%;
- margin-left: 10%;
- margin-right: 10%;
- margin-bottom: 5%;
 }
 
 #title {
