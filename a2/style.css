@@ -1,10 +1,10 @@
 .row{
 position: relative;
-width: 100%;
+margin-left: 10%;
+margin-right: 10%;
 }
 
 #container {
- width: 100%;
  margin-top: 20%;
  margin-left: 10%;
  margin-right: 10%;
