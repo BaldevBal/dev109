@@ -1,0 +1,52 @@
+    			* {
+    				font-family: Arial, Verdana, sans-serif;
+    				color: #665544;
+    				text-align: center;}
+          #header h1 {
+            font-family: 'GothicaBookOblique';
+            font-weight: normal;
+            font-style: italic;
+            color: Orange }
+    			body {
+    				width: 90%;
+    				margin: 0 auto;
+            background-color: white;
+            background-image: url("https://www.shutterstock.com/image-vector/wax-crayon-like-childs-hand-600nw-725536486.jpg");
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size: cover;}
+    			#content {
+    				overflow: auto;}
+    			#nav, #feature, #footer {
+    				margin: 1%;}
+    			.column1 {
+    				width: 31.3%;
+    				float: left;
+    				margin: 1%;
+            background-color: lightgreen;}
+          .column2 {
+    				width: 31.3%;
+    				float: left;
+    				margin: 1%;
+            background-color: lightyellow;}
+    			.column3 {
+    			  width: 31.3%;
+    				float: left;
+    				margin: 1%;
+    				margin-right: 0%;
+            background-color: lightblue;}
+    			li {
+    				display: inline;
+    				padding: 0.5em;}
+    			#nav, #footer {
+    				background-color: cyan;
+    				padding: 0.5em 0;}
+    			#feature, .article {
+    				height: 10em;
+    				margin-bottom: 1em;}
+          #feature {  
+            background-color: lightpink;
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/009/397/828/small/cap-clipart-design-illustration-free-png.png");
+            background-size:contain;
+            background-position: right;
+            background-repeat:no-repeat;}
