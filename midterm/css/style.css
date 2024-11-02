@@ -1,1 +1,41 @@
 
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;}
+#header h1 {
+    font-family: 'GothicaBookOblique';
+    font-weight: normal;
+    font-style: italic;
+    color: White;
+    text-align: center;}
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    background-image: url("https://images.unsplash.com/photo-1699891730676-037bed3c1bed?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;}
+#content {
+    overflow: auto;}
+#header
+li {
+    display: inline;
+    padding: 0.5em;
+    text-align: center;
+    justify-content: center;}
+#nav {
+    background-color: cyan;
+    padding: 0.5em;
+    margin: 1%;
+    text-align: center;}
+#feature, .article {
+    height: 10em;
+    margin: 1%;
+    text-align: left;}
+#feature {  
+    background-color: white;
+    background-size:contain;
+    background-position: right;
+    background-repeat:no-repeat;}
+
