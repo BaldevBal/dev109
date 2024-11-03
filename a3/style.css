@@ -1,0 +1,10 @@
+body {
+            text-align: center;
+        }
+        #rhombusContainer {
+            display: inline-block;
+            margin-top: 20px;
+        }
+        div {
+            margin: 0;
+        }
