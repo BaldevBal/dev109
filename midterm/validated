@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+	<title>Midterm</title>
+        <link rel="stylesheet" type="text/css" href="https://baldevbal.github.io/dev109/midterm/css/style.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/en/face/cubellan" type="text/css">
+	</head>
+	<body>
+		<div id="header">
+			<h1>Midterm</h1>
+			<div id="nav">
+				<ul>
+					<li><a href="https://baldevbal.github.io/dev109/midterm/index.html">Home</a></li>
+					<li><a href="https://baldevbal.github.io/dev109/midterm/about.html">About Me</a></li>
+					<li><a href="https://baldevbal.github.io/dev109/midterm/courses.html">Courses</a></li>
+					<li><a href="https://baldevbal.github.io/dev109/midterm/artifacts.html">Artifacts</a></li>
+          <li><a href="https://baldevbal.github.io/dev109/midterm/modules.html">Module Assignments</a></li>
+					<li><a href="https://baldevbal.github.io/dev109/midterm/contact.html">Contact Me</a></li>
+          <li><a href="https://baldevbal.github.io/dev109/midterm/creative.html">Know Me Better</a></li>
+					<li><a href="https://baldevbal.github.io/dev109/midterm/validated.html">Validated</a></li>
+        </ul>
+			</div>
+		</div>
+		<div id="content">
+			<div id="feature">
+              <p><u>Validators</u></p>
+                <p></p>
+			</div>
+		</div>
+	</body>
+</html>
