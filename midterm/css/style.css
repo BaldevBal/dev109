@@ -44,7 +44,9 @@ li {
     background-color: white;
     background-size: contain;
     background-position: center;
-    background-repeat:no-repeat;}
+    background-repeat:no-repeat;
+    overflow: auto;
+}
 .columns {
     display: flex;
     justify-content: space-between;
