@@ -46,3 +46,16 @@ li {
     background-size: contain;
     background-position: center;
     background-repeat:no-repeat;}
+.columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin-top: 1em;
+}
+.column {
+    width: 48%;
+    text-align: center;}
+.column img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;}
