@@ -77,6 +77,10 @@ p + h2 {
 #hotel2 {
   border-bottom: 1px solid #fff; 
   padding-bottom: 1em;}
+#hotel3 {
+  margin-top: 1em; 
+  border-top: 1px solid #fff; 
+  padding-top: 1em;}
 
 #rooms {
   font-size: 440%;
