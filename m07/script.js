@@ -12,7 +12,7 @@ function Hotel(name, rooms, booked) {
 // Create two hotel objects
 var quayHotel = new Hotel('Quay', 40, 25);
 var parkHotel = new Hotel('Park', 120, 77);
-var sunsetRooms = new Hotel('Sunset', 86, 10);
+var sunsetRooms = new Hotel('Sunset', 86, 10); //added second variable for sunset room
 
 
 // Update the HTML for the page
