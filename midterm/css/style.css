@@ -45,7 +45,7 @@ li {
     background-size: contain;
     background-position: center;
     background-repeat:no-repeat;
-    overflow: auto;
+    overflow: auto; /* overflow: auto allowed the main content box to expand, which especially helped with the validators page as the images made thie box quite tall */
 }
 .columns {
     display: flex;
