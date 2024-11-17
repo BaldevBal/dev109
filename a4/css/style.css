@@ -9,3 +9,19 @@ form#myform {
   background-color: #d6f8f7;
   text-align: center;
 }
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+footer a img {
+  width: 150px;
+  margin: 0 10px;
+  border: 1px solid black;
+}
+
+footer a {
+  display: inline-block;
+}
