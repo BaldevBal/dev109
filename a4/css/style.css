@@ -10,6 +10,13 @@ form#myform {
   text-align: center;
 }
 
+.myform {
+  text-align: center; 
+  margin: 60px;
+  padding: 1px;
+  border: 1px solid black; 
+}
+
 footer {
   text-align: center;
   margin-top: 20px;
