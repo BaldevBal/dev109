@@ -1,0 +1,11 @@
+.warning {
+    color:red;
+}
+
+form#myform {
+  border: 1px solid black;
+  padding: 1px;
+  margin: 60px;
+  background-color: #d6f8f7;
+  text-align: center;
+}
