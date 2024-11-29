@@ -1,11 +1,21 @@
 function isValid(event) {
-  var isFormValid = true;
-  if (fullName() && email() && comment()) {
+  let isFormValid = true;
+  if (fullName()) {
     isFormValid = false;
-  } else {
+  } 
+  if (email()) {
+    isFormValid = false;
+  }
+  if (comment()) {
+    isFormValid = false;
+  }
+  if (isFormValid) {
     document.getElementById("submiterror").innerHTML = "<p><strong>Blank Fields Above</strong></p>";
     event.preventDefault();
     return false;
+  } 
+    else {
+    document.getElementById("submiterror").innerHTML = "";
   }
     return isFormValid;
 }
@@ -14,7 +24,7 @@ FullName.addEventListener('blur', fullName, false);
 
 function fullName() {
   var validFullname = false;
-  var fullname = document.getElementById("name").value;
+  var fullname = document.getElementById("name").value.trim();
   var errorMessages = "";
 
   if (fullname === "" {
@@ -36,7 +46,7 @@ Email.addEventListener('blur', email, false);
 
 function email() {
   var validEmail = false;
-  var emailValue = document.getElementById("email").value;
+  var emailValue = document.getElementById("email").value.trim();
   var errorMessages = "";
 
   if (emailValue === "") {
@@ -58,7 +68,7 @@ function email() {
 
   function comment() {
     var validComment = false;
-    var commentValue = document.getElementById("comment").value;
+    var commentValue = document.getElementById("comment").value.trim();
     var errorMessages = "";
     
     if (commentValue === "") {
