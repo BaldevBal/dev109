@@ -61,3 +61,6 @@ li {
     max-width: 400px;
     height: auto;}
 
+.warning {
+    color:red;
+}
