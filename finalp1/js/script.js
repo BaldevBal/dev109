@@ -12,7 +12,7 @@ FullName.addEventListener('blur', fullName, false);
 
 function fullName() {
   var validFullname = false;
-  var fullname = document.getElementById("FullName").value;
+  var fullname = document.getElementById("name").value;
   var errorMessages = "";
 
   if (fullname === "" {
@@ -34,7 +34,7 @@ Email.addEventListener('blur', email, false);
 
 function email() {
   var validEmail = false;
-  var emailValue = document.getElementById("Email").value;
+  var emailValue = document.getElementById("email").value;
   var errorMessages = "";
 
   if (emailValue === "") {
