@@ -1,11 +1,13 @@
-function isValid() {
+function isValid(event) {
+  var isFormValid = true;
   if (fullName() && email() && comment()) {
-    return true;
+    isFormValid = false;
   } else {
     document.getElementById("submiterror").innerHTML = "<p><strong>Blank Fields Above</strong></p>";
     event.preventDefault();
     return false;
   }
+    return isFormValid;
 }
 
 FullName.addEventListener('blur', fullName, false);
@@ -50,4 +52,22 @@ function email() {
       validEmail = true;
       console.log("email valid")
     }
+    document.getElementById("emailWarning").innerHTML = errorMessages;
+    return validEmail;
   }
+
+  function comment() {
+    var validComment = false;
+    var commentValue = document.getElementById("comment").value;
+    var errorMessages = "";
+    
+    if (commentValue === "") {
+        errorMessages += "<p>Comment required</p>";
+        console.log("comment invalid - empty");
+    } else {
+        validComment = true;
+        console.log("comment valid");
+    }
+    document.getElementById("commentWarning").innerHTML = errorMessages;
+    return validComment;
+}
