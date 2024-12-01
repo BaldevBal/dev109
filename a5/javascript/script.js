@@ -1,4 +1,4 @@
-const images = ["https://baldevbal.github.io/dev109/a5/images/artione.png", "https://baldevbal.github.io/dev109/a5/images/artitwo.png", "https://baldevbal.github.io/dev109/a5/images/artithree.png", "https://baldevbal.github.io/dev109/a5/images/artifour.png", "https://baldevbal.github.io/dev109/a5/images/artifive.png"];
+const images = ["https://baldevbal.github.io/dev109/a5/images/artione.png", "https://baldevbal.github.io/dev109/a5/images/artitwo.png", "https://baldevbal.github.io/dev109/a5/images/artithree.png", "https://baldevbal.github.io/dev109/a5/images/artifour.png", "https://baldevbal.github.io/dev109/a5/images/artifactfive.png"];
 
 const captions = ["Artifact 1 - Resume<br>The introduction artifact. The code only consists of HTML and basic text formatting.", 
                   "Artifact 2 - Chessboard<br>First artifact with CSS and styling.", 
