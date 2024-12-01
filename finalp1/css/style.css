@@ -60,7 +60,12 @@ li {
     width: 100%;
     max-width: 400px;
     height: auto;}
-
+#bounceGif {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);  
+}
 .warning {
     color:red;
 }
