@@ -14,10 +14,10 @@ body {
 }
 
 #slideshowImage {
-    max-width: 200px;
-    max-height: 400px;
+    max-width: 1000px;
+    max-height: 500px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .footer{
