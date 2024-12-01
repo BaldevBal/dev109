@@ -1,5 +1,5 @@
-const images = ["https://baldevbal.github.io/dev109/midterm/images/resumeartifact.png", "https://baldevbal.github.io/dev109/finalp1/images/shoppingcartimg.png", "https://baldevbal.github.io/dev109/finalp1/images/tableimg.png"]; // Replace with your image file names
-const captions = ["Hello, Artifact 1", "Hello, Artifact 2", "Hello, Artifact 3"];
+const images = ["https://baldevbal.github.io/dev109/a1/images/artione.png", "https://baldevbal.github.io/dev109/a1/images/artitwo.png", "https://baldevbal.github.io/dev109/a1/images/artithree.png", "https://baldevbal.github.io/dev109/a1/images/artifour.png", "https://baldevbal.github.io/dev109/a1/images/artifive.png"]; // Replace with your image file names
+const captions = ["Artifact 1 - Resume", "Artifact 2 - Chessboard", "Artifact 3 - Rhombus", "Artifact 4 - Form Validation", "Artifact 5 - Slideshow"];
 let currentIndex = 0;
 
 const slideshowImage = document.getElementById('slideshowImage');
