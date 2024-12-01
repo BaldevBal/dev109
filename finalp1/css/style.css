@@ -19,6 +19,7 @@ body {
     background-size: cover;
     min-height: 100vh;}
 #content {
+    position: relative;
     overflow: auto;}
 li {
     display: inline;
@@ -61,10 +62,10 @@ li {
     max-width: 400px;
     height: auto;}
 #bounceGif {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 50%;
-    align-items: center;
+    height: auto;
 }
 .warning {
     color:red;
