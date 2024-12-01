@@ -1,17 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: 100vh;
     margin: 0;
 }
 
-.slideshow-container {
+.slideshowContainer {
     text-align: center;
+    max-width: 600px;
+    width: 100%;
 }
 
-#slideshow-image {
+#slideshowImage {
     max-width: 200px;
     max-height: 400px;
     display: block;
@@ -19,19 +21,25 @@ body {
 }
 
 .footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-  margin: 0;
-  font-size:30px
-}
-.validatorIcons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-  margin: 0;
-  font-size:30px
+  text-align: center;
+  margin-top: auto;
+  padding: 20px;
+  font-size: 18px;
 }
 
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.buttonContainer {
+  margin-top: 10px;
+  
+}
+
+#caption {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
