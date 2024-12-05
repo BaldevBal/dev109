@@ -35,8 +35,7 @@ li {
     padding: 0.5em;
     width: 70%;
     margin: auto;
-    text-align: center;
-}
+    text-align: center;}
 #feature, .article {
     padding: 0.5em;
     margin: 4% auto;
@@ -52,8 +51,7 @@ li {
     display: flex;
     justify-content: space-between;
     gap: 1em;
-    margin-top: 1em;
-}
+    margin-top: 1em;}
 .column {
     width: 48%;
     text-align: center;}
@@ -66,20 +64,18 @@ li {
     margin: 0 auto; 
     margin-top: 20px;
     width: 100px;
-    height: auto;
-}
+    height: auto;}
 .youtubeVideo {
     display: block;
     margin: 1em auto;
     width: 100%;
     max-width: 800px;
-    height: auto;
+    height: auto;}
 .parkImage {
     display: block;
     margin: 1em auto;
     width: 100%;
     max-width: 600px;
-    height: auto;
+    height: auto;}
 .warning {
-    color:red;
-}
+    color:red;}
