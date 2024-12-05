@@ -68,6 +68,18 @@ li {
     width: 100px;
     height: auto;
 }
+.youtubeVideo {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+.parkImage {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 .warning {
     color:red;
 }
